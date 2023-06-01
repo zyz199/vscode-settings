@@ -1,4 +1,7 @@
 {
+  /*包管理设置*/
+  "stylelint.packageManager": "pnpm",
+  "npm.packageManager": "pnpm",
   /* cSpell:disable */
 
   /* Debug */
@@ -177,6 +180,7 @@
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
+  "eslint.packageManager": "pnpm",
   "eslint.quiet": true,
   "eslint.validate": [
     "javascript",
@@ -232,6 +236,9 @@
 
   /* Typescript */
   "typescript.tsdk": "node_modules\\typescript\\lib",
+  "javascript.preferences.importModuleSpecifier": "project-relative",
+  "typescript.suggest.jsdoc.generateReturns": false,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
 
   /* Tailwind CSS */
   "tailwindCSS.includeLanguages": {
