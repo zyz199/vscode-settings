@@ -26,18 +26,6 @@
     "source.fixAll.stylelint": true,
     "source.organizeImports": false
   },
-  "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust-analyzer"
-  },
-  "[astro]": {
-    "editor.defaultFormatter": "astro-build.astro-vscode"
-  },
-  "[shellscript]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "[toml]": {
-    "editor.defaultFormatter": "be5invis.toml"
-  },
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
   },
