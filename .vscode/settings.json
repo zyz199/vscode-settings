@@ -143,8 +143,6 @@
   /* Window */
   "window.commandCenter": true,
   "window.autoDetectColorScheme": true,
-  "window.dialogStyle": "custom",
-  "window.titleBarStyle": "custom",
   "window.nativeTabs": true, // Only works on MacOS
 
   /* Workbench */
@@ -205,20 +203,6 @@
   "prettier.vueIndentScriptAndStyle": false,
   "prettier.documentSelectors": ["**/*.astro"],
 
-  /* GitHub Copilot */
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": true,
-    "scminput": false,
-    "yaml": false
-  },
-
-  /* CSpell */
-  "cSpell.allowCompoundWords": true,
-  "cSpell.language": "en,en-US",
-  "cSpell.enableFiletypes": ["astro"],
-
   /* CSS */
   "css.lint.hexColorLength": "ignore",
 
@@ -245,33 +229,5 @@
   "material-icon-theme.folders.color": "#42a5f5",
   "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.hidesExplorerArrows": false,
-  "material-icon-theme.saturation": 1,
-
-  /* TODO Highlight */
-  "todohighlight.isEnable": true,
-  "todohighlight.keywords": [
-    {
-      "text": "NOTE:",
-      "color": "#fff",
-      "backgroundColor": "#50c878",
-      "isWholeLine": false
-    },
-    {
-      "text": "TODO:",
-      "color": "#000",
-      "isWholeLine": false
-    },
-    {
-      "text": "HACK:",
-      "color": "#fff",
-      "backgroundColor": "purple",
-      "isWholeLine": true
-    },
-    {
-      "text": "DEPRECATED:",
-      "color": "#fff",
-      "backgroundColor": "red",
-      "isWholeLine": true
-    }
-  ]
+  "material-icon-theme.saturation": 1
 }
