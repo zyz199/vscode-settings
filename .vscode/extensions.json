@@ -46,7 +46,6 @@
     "timonwong.shellcheck", // Shell Check
     "stylelint.vscode-stylelint", // Stylelint
     "bradlc.vscode-tailwindcss", // Tailwind CSS Intellisense
-    "wayou.vscode-todo-highlight", // TODO Highlight
     "be5invis.toml", // TOML Languages Support
     "shardulm94.trailing-spaces", // Trailing Spaces
     "Vue.vscode-typescript-vue-plugin", // TypeScript Vue Plugin (Volar)
